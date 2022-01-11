@@ -1,0 +1,142 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.Bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  color: #0f172a;
+  font-size: 700;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .box-container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+.box {
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .box {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.smallBox-bg-color {
+  background-color: #fbbf24;
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .smallBox-bg-color {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .smallBox-bg-color {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .smallBox-bg-color {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+.mediumBox-bg-color {
+  background-color: #38bdf8;
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .mediumBox-bg-color {
+    height: 170px;
+    width: 170px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .mediumBox-bg-color {
+    height: 240px;
+    width: 240px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mediumBox-bg-color {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+.largeBox-bg-color {
+  background-color: #ec4899;
+  height: 250px;
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .largeBox-bg-color {
+    height: 350px;
+    width: 350px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .largeBox-bg-color {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .largeBox-bg-color {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+.box-title {
+  font-family: "Bree Serif";
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .box-title {
+    font-size: 26px;
+  }
+}
